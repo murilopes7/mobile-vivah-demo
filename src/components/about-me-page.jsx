@@ -66,10 +66,10 @@ export const InstagramPostSalao = () => {
         <>
             {/*Introdução do salão e do conteúdo*/}
             <article className={instagramPost.infoContent}>
-                <h2 className={instagramPost.title} style={{whiteSpace: 'nowrap'}}>Conheça nosso salão</h2>
+                <h2 className={instagramPost.title} style={{ whiteSpace: 'nowrap' }}>Conheça nosso salão</h2>
                 <p className={instagramPost.description}>
-                    Vivah Hair Therapy um salão de Beleza e bem-estar onde a proposta é cuidar do seu externo 
-                    para refletir no seu interno.<br/> Sua beleza e autocuidado é algo essencial.
+                    Vivah Hair Therapy um salão de Beleza e bem-estar onde a proposta é cuidar do seu externo
+                    para refletir no seu interno.<br /> Sua beleza e autocuidado é algo essencial.
                 </p>
             </article>
 
@@ -89,18 +89,14 @@ export default function AboutMe() {
                     <small className={aboutMeStyles.sobre}>Sobre mim</small>
                     <h1 className={aboutMeStyles.conhecaEu}>Fabiana Carvalho</h1>
                     <p className={aboutMeStyles.informationContent}>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-
+                        Cuido do seu externo para refletir no interno 🍃
                         <br />
-                        Eum saepe, quae atipsum commodi in, deleniti molestias
-                        eos repellendus placeat perferendis animi velit?
-
-                        <br />
-
-                        Commodi, nisi dolore? Ad, atque beatae. Ex?
+                        <span style={{ whiteSpace: 'nowrap', display: 'inline-flex'}} >
+                            Educadora Truss &nbsp; &nbsp; | &nbsp; &nbsp; <a href="https://www.instagram.com/truss_sjcampos/" className={'text-decoration-none nav-item nav-link ' + aboutMeStyles.truss}>@truss_sjcampos</a>
+                        </span>
                     </p>
                 </div>
-                <ul className={aboutMeStyles.qualities + ' container pb-5 '}>
+                <ul className={aboutMeStyles.qualities + ' container pb-4 '}>
                     <li
                         value={"0"}
                         style={{

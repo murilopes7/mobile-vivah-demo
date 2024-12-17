@@ -375,6 +375,12 @@
     }
 }
 
+@media screen and (min-width: 1200px){
+    .swiper-pagination {
+        margin-left: -4em;
+    }
+}
+
 @media (max-width: 500px) {
     .swiper_container {
         height: 47rem;

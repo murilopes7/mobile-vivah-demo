@@ -5,8 +5,8 @@ import NavigationMenu from './components/NavigationMenu';
 //import Carousel from './data/CarouselData';
 import AboutMeImage from './components/about-me-page.jsx';
 import FirstPageCarousel from './components/carouselFirstPage.jsx';
-//import Interior from './components/interior-design.jsx'
-//import Exterior from './components/exterior-design.jsx'
+import Interior from './components/interior-design.jsx'
+import Exterior from './components/exterior-design.jsx'
 //import Testimonials from './components/testimonial.jsx'
 //import Footer from './footer/footer.jsx'
 
@@ -48,6 +48,14 @@ const BeautySalonPage = () => {
 
                     <section className={styles.aboutMePage}>
                         <AboutMeImage />
+                    </section>
+
+                    <section className={styles.interiorPage}>
+                        <Interior />
+                    </section>
+
+                    <section className={styles.exteriorPage}>
+                        <Exterior />
                     </section>
                 </section>
             </main>
