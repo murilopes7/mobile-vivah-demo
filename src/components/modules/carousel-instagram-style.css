@@ -37,6 +37,19 @@
     margin-top: -17.5em;
 }
 
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .margin-container {
+        margin-top: -22.5em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .margin-container {
+        margin-left: 6em;
+        margin-top: 2em;
+    }
+}
+
 .instagram-post {
     max-width: var(--max-width-post);
     width: 100%;
@@ -50,7 +63,11 @@
 }
 
 .instagram__header .profile_name {
+    font-weight: 400;
+    font-size: 1.35em;
     margin-left: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .instagram__header figure {

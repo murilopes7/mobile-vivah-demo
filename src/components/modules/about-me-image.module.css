@@ -90,6 +90,17 @@
 }
 
 @media screen and (max-width: 450px) {
+    .conhecaEu {
+        font-size: 2.08em;
+        font-weight: 600;
+    }
+
+    .informationContent {
+        font-size: 1em;
+
+        overflow-wrap: break-word;
+    }
+
     #item-0-title {
         font-size: 2.25em;
         margin-top: 0.5em !important;

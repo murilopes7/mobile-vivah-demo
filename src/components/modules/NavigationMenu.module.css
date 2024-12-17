@@ -1,5 +1,6 @@
 .navigation {
     gap: 3em;
+    padding-top: 1.5rem;
     margin: auto 0;
     font: 600 16px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
 }
@@ -17,4 +18,12 @@
     .navigation {
         white-space: initial;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .navigation {
+        gap: 1em;
+        padding: 0;
+    }
+    
 }
