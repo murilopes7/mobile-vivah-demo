@@ -1,0 +1,35 @@
+/* Cor do background do site */
+:root {
+    --bg-color: #E6E7E6;
+    /*
+        --bg-accent-color: #7F8A8D;
+        --bg-accent-impact-color: #676459;
+        --bg-style-color: #857F8D;
+        --light-color: #E7DEBD;
+        --header-color: #8D8A7F;
+        --header-color-light: #FEF7ED; 
+        --title-color: #2d271b;
+    */
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    margin: 0;
+}
+
+.mainContainer {
+    overflow-x: hidden;
+}
+
+/* Configurações do cabeçário */
+.header {
+    background-color: #fbf9f9;
+    width: 100vw;
+    height: 8vh;
+}
+
+.logoImage {
+    max-height: 2.7em !important;
+    display: flex;
+    justify-content: flex-start;
+}

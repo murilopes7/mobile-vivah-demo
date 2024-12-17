@@ -1,0 +1,20 @@
+.navigation {
+    gap: 3em;
+    margin: auto 0;
+    font: 600 16px Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+}
+
+.navLink:hover {
+    color: #dbc87b !important;
+}
+
+@media (max-width: 991px) {
+    .navigation {
+        white-space: initial;
+    }
+}

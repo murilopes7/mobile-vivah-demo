@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Slab:ital@0;1&family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Configuração do Texto principal e imagem */
+.contentSection {
+    display: flex;
+    margin-top: 4em;
+    gap: 40px 84px;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 700px;
+}
+
+.infoContent {
+    display: flex;
+    min-width: 240px;
+    min-height: 631px;
+    flex-direction: column;
+    align-items: start;
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: var(--header-color-light);
+    width: 50vmax;
+    z-index: -1;
+    animation: move 20s ease-in-out infinite;
+    scale: 1.04;
+    opacity: 0.3;
+    transform-origin: 50% 50%;
+}
+
+@keyframes move {
+    0% {
+        transform: scale(1) translate(10px, -30px);
+    }
+
+    30% {
+        transform: scale(0.8, 1) translate(80vw, 8vh) rotate(160deg);
+    }
+
+    40% {
+        transform: scale(0.8, 1) translate(80vw, 13vh) rotate(160deg);
+    }
+
+    78% {
+        transform: scale(1.25) translate(0vw, 19vh) rotate(-20deg);
+    }
+
+    80% {
+        transform: scale(1.25) translate(0vw, 19vh) rotate(-20deg);
+    }
+
+    100% {
+        transform: scale(1) translate(10px, -30px);
+    }
+}
+
+.title {
+    color: #175C00;
+    margin-top: 8em;
+    font: 400 29px against, sans-serif;
+}
+
+.description {
+    display: flex;
+    margin-top: 18px;
+    min-height: 250px;
+    max-width: 100%;
+    color: #000;
+    padding: 6px 10px;
+
+    /*line-height: 20px;*/
+
+    font: 200 1em "Montserrat", sans-serif;
+    ;
+}
+
+/* Botão de chamada */
+.scheduleButton {
+    background-color: #A9C690;
+    box-shadow: 9px 9px 0 #151515;
+    display: flex;
+    margin-top: 43px;
+    align-items: center;
+    gap: 1.45em;
+    overflow: hidden;
+    justify-content: center;
+    padding: 0 17px;
+    border: 2px solid #151515;
+    text-decoration: none;
+    height: 4em;
+}
+
+.buttonText {
+    color: #151515;
+    letter-spacing: 1.5px;
+    width: 200px;
+    margin: auto 0;
+    padding: 0px 10px 0;
+    font: 400 20px Bell MT, sans-serif;
+}
+
+.buttonIcon {
+    width: 1.5em;
+    aspect-ratio: 0.88;
+    object-fit: contain;
+}
+
+/* Carrossel de imagens baseadas no Instagram */
+.imageWrapper {
+    /*     width: 766px;*/
+    width: fit-content;
+    /*     justify-self: end;*/
+    /*     padding-left: 10em;*/
+    margin: auto 0;
+    position: relative;
+}
