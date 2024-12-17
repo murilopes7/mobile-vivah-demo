@@ -136,7 +136,7 @@ export default function AboutMe() {
                         <h2 style={{
                             //position: "absolute",
                             marginTop: "5rem",
-                            marginLeft: "-8em",
+                            marginLeft: "-8.5em",
                             fontSize: '1.32em',
                             width: '100%',
                             display: 'inline-flex',

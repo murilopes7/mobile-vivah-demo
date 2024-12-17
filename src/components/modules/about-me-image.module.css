@@ -199,7 +199,7 @@
 
     #item-0-title {
         margin-top: 0.5em !important;
-        margin-left: 1em !important;
+        margin-left: -3em !important;
         display: flex;
         justify-content: flex-end;
         width: 100%;
