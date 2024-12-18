@@ -2,13 +2,12 @@ import React from 'react';
 
 import styles from './BeautySalonPage.module.css';
 import NavigationMenu from './components/NavigationMenu';
-//import Carousel from './data/CarouselData';
 import AboutMeImage from './components/about-me-page.jsx';
 import FirstPageCarousel from './components/carouselFirstPage.jsx';
 import Interior from './components/interior-design.jsx'
 import Exterior from './components/exterior-design.jsx'
-//import Testimonials from './components/testimonial.jsx'
-//import Footer from './footer/footer.jsx'
+import Testimonials from './components/testimonial.jsx'
+import Footer from './footer/footer.jsx'
 
 //import './beautySalonImageAnimation.js';
 
@@ -57,8 +56,17 @@ const BeautySalonPage = () => {
                     <section className={styles.exteriorPage}>
                         <Exterior />
                     </section>
+
+                    <section className={styles.testimonialsCard}>
+                        <Testimonials />
+                    </section>
                 </section>
             </main>
+            
+            <footer style={{ backgroundColor: '#1B1B1B', marginTop: '-2vh' }}>
+                <Footer/>
+            </footer>
+
         </>
     );
 };

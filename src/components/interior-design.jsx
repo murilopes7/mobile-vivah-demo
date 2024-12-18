@@ -12,7 +12,7 @@ export default function InteriorDesign() {
             marginTop: 200,
             backgroundImage: 'linear-gradient(180deg, #E6E7E6, #f5efda)'
         }}
-            className={design.containerImageDesign}>
+            className={design.containerImageDesign} id={design["exteriorDesign"]}>
             <div className={design.wrapperDesign}>
                 <h1 className={design.number}>01</h1>
                 <h2 className={design.design}>Interior Design</h2>
@@ -24,7 +24,7 @@ export default function InteriorDesign() {
                     <picture>
                         {/* <source srcSet={img_wrapper.webp} type="image/webp" />
                         <source srcSet={img_wrapper.jpg} type="image/jpeg" /> */}
-                        <img src={'https://i.postimg.cc/15YxCWBB/Aphrodite.webp'} alt={img_wrapper.alt} className={design.imageDesign} />
+                        <img loading='lazy' src={'https://i.postimg.cc/15YxCWBB/Aphrodite.webp'} alt={img_wrapper.alt} className={design.imageDesign} />
                     </picture>
 
                 </div>

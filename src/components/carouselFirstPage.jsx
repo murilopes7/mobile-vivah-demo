@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 
 import 'ionicons';
 
-import React from 'react'; 
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
@@ -39,8 +39,8 @@ function CarouselFirstPage() {
                 }}*/
 
                 breakpoints={{
-                    640: {  pagination: { clickable: false } },
-                    760: {  pagination: {clickable: false, visible: false}},
+                    640: { pagination: { clickable: false } },
+                    760: { pagination: { clickable: false, visible: false } },
                     1024: { pagination: { clickable: true, type: 'bullets' } },
                 }}
 
@@ -63,11 +63,11 @@ function CarouselFirstPage() {
                 </div>
 
                 <SwiperSlide className='swiper-slide'>
-                    <img className="swiper-lazy" datatype='string' src={img[0]} alt="Slide 1" />
+                    <img className="swiper-lazy" loading='lazy' src={img[0]} alt="Slide 1" />
                     <div className="swiper-lazy-preloader"></div>
                 </SwiperSlide>
                 <SwiperSlide className='swiper-slide'>
-                    <img className="swiper-lazy" datatype='string' src={img[1]} alt="Slide 2" />
+                    <img className="swiper-lazy" loading='lazy' src={img[1]} alt="Slide 2" />
                     <div className="swiper-lazy-preloader"></div>
                 </SwiperSlide>
 

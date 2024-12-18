@@ -3,16 +3,16 @@ import React from 'react'
 import design from './modules/design.module.css'
 
 const img_wrapper = {
-    src: '/ig_img/Scathach_scarlett.webp', alt: 'Interior da Vivah'
+    src: 'https://i.postimg.cc/rpPsFnhn/Scathach-scarlett.webp', alt: 'Interior da Vivah'
 };
 
-export default function InteriorDesign() {
+export default function ExteriorDesign() {
     return (
         <div style={{
             marginTop: '-4vh',
             backgroundImage: 'linear-gradient(180deg, #f5efda, #f5efd9)'
         }}
-
+            
             className={design.containerimagedesign}>
             <div className={design.wrapperDesign}>
                 <h1 className={design.number}>02</h1>
